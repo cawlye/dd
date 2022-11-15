@@ -1,5 +1,5 @@
 {
-    "rewrites": [{ "source": "/views/(.*)", "destination": "/app.js" }],
+    "rewrites": [{ "source": "/app.js(.*)", "destination": "/app.js" }],
     
   "github": {
     "silent": true

@@ -5,6 +5,6 @@ module.exports = {
   "time_update": "200",
   // Enter Seconds for updating recently added and popular list. For disabling it Enter disable
   
-  "port": "3000", 
+  port: process.env.PORT || 8000, 
     // Enter port for your website
 }
